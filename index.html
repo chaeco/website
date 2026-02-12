@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaeco | Building Better Web Standards</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Dependencies -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Project Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="glow"></div>
+
+<nav>
+    <a href="/" class="logo">
+        <i data-lucide="layers"></i> CHAECO
+    </a>
+    <div class="nav-right">
+        <div class="nav-links">
+            <a href="#ecosystem" data-i18n="nav_ecosystem">Ecosystem</a>
+            <a href="#philosophy" data-i18n="nav_philosophy">Philosophy</a>
+            <a href="https://github.com/chaeco">GitHub</a>
+        </div>
+        <button class="lang-switch" onclick="toggleLang()">中文</button>
+    </div>
+</nav>
+
+<main>
+    <section class="hero">
+        <h1 data-i18n="hero_h1">Refining the Web Experience.</h1>
+        <p data-i18n="hero_p">A collective organization building specialized, low-level tooling and infrastructure for the next generation of web applications.</p>
+    </section>
+
+    <section class="features" id="philosophy">
+        <span class="section-label" data-i18n="section_philosophy">Our Philosophy</span>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3 data-i18n="philosophy_1_h3">Atomic Design</h3>
+                <p data-i18n="philosophy_1_p">Every tool is built to solve one specific problem perfectly. No bloat, no unnecessary dependencies.</p>
+            </div>
+            <div class="feature-item">
+                <h3 data-i18n="philosophy_2_h3">Native-First</h3>
+                <p data-i18n="philosophy_2_p">We believe in leveraging native browser capabilities like IndexedDB, Streams, and Web Crypto for better performance.</p>
+            </div>
+            <div class="feature-item">
+                <h3 data-i18n="philosophy_3_h3">Developer Ergonomics</h3>
+                <p data-i18n="philosophy_3_p">Clean APIs that feel intuitive. Type safety isn't an afterthought; it's our foundation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ecosystem" id="ecosystem">
+        <span class="section-label" data-i18n="section_ecosystem">Ecosystem Explore</span>
+        
+        <div id="ecosystem-content">
+            <!-- Dynamic Content Load from data/repos.json -->
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div data-i18n="footer_copy">© 2026 Chaeco Open Source Organisation. All tools MIT licensed.</div>
+    <div style="display:flex; gap: 30px;">
+        <a href="https://github.com/chaeco" style="color:inherit; text-decoration:none">GitHub</a>
+        <a href="#" style="color:inherit; text-decoration:none" data-i18n="footer_top">Back to top</a>
+    </div>
+</footer>
+
+<!-- Project Scripts -->
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

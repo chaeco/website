@@ -1,0 +1,47 @@
+[
+  {
+    "categoryKey": "cat_storage",
+    "repos": [
+      {
+        "url": "https://github.com/chaeco/indexed-db-storage",
+        "titleKey": "repo_idb_title",
+        "descKey": "repo_idb_desc"
+      },
+      {
+        "url": "https://github.com/chaeco/htils",
+        "titleKey": "repo_htils_title",
+        "descKey": "repo_htils_desc"
+      }
+    ]
+  },
+  {
+    "categoryKey": "cat_network",
+    "repos": [
+      {
+        "url": "https://github.com/chaeco/hoa-jwt-permission",
+        "titleKey": "repo_jwt_title",
+        "descKey": "repo_jwt_desc"
+      },
+      {
+        "url": "https://github.com/chaeco/logger",
+        "titleKey": "repo_logger_title",
+        "descKey": "repo_logger_desc"
+      }
+    ]
+  },
+  {
+    "categoryKey": "cat_routing",
+    "repos": [
+      {
+        "url": "https://github.com/chaeco/route-wizard",
+        "titleKey": "repo_wizard_title",
+        "descKey": "repo_wizard_desc"
+      },
+      {
+        "url": "https://github.com/chaeco/hoa-auto-router",
+        "titleKey": "repo_auto_title",
+        "descKey": "repo_auto_desc"
+      }
+    ]
+  }
+]

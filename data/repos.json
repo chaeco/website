@@ -15,6 +15,16 @@
     ]
   },
   {
+    "categoryKey": "cat_database",
+    "repos": [
+      {
+        "url": "https://github.com/chaeco/sqlo",
+        "titleKey": "repo_sqlo_title",
+        "descKey": "repo_sqlo_desc"
+      }
+    ]
+  },
+  {
     "categoryKey": "cat_routing",
     "repos": [
       {
@@ -26,6 +36,11 @@
         "url": "https://github.com/chaeco/jwt-permission",
         "titleKey": "repo_jwt_title",
         "descKey": "repo_jwt_desc"
+      },
+      {
+        "url": "https://github.com/chaeco/auto-api-docs",
+        "titleKey": "repo_autodocs_title",
+        "descKey": "repo_autodocs_desc"
       }
     ]
   },
@@ -36,6 +51,11 @@
         "url": "https://github.com/chaeco/logger",
         "titleKey": "repo_logger_title",
         "descKey": "repo_logger_desc"
+      },
+      {
+        "url": "https://github.com/chaeco/lite-log",
+        "titleKey": "repo_litelog_title",
+        "descKey": "repo_litelog_desc"
       }
     ]
   }

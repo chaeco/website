@@ -11,6 +11,11 @@
         "url": "https://github.com/chaeco/htils",
         "titleKey": "repo_htils_title",
         "descKey": "repo_htils_desc"
+      },
+      {
+        "url": "https://github.com/chaeco/ip-lookup",
+        "titleKey": "repo_iplookup_title",
+        "descKey": "repo_iplookup_desc"
       }
     ]
   },
